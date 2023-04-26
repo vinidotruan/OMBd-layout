@@ -1,0 +1,81 @@
+@import "variables.css";
+
+body, html {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+img.icons {
+    width: 25px;
+    height: 25px;
+}
+
+body {
+    background-color: var(--background-dark);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.text-white {
+    color: white;
+}
+
+.svg-white {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(92deg) brightness(104%) contrast(101%);
+}
+
+.svg-red-dark {
+    filter: invert(21%) sepia(69%) saturate(2636%) hue-rotate(339deg) brightness(100%) contrast(100%);
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+.border-yellow {
+    border: 1px solid yellow;
+}
+
+.o-4 {
+    opacity: .4;
+}

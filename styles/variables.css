@@ -1,0 +1,7 @@
+:root {
+    --red: #b42929;
+    --red-dark: #942425;
+    --background: #1a2231;
+    --background-dark: var(--dark);
+    --dark: #0d0f15;
+}

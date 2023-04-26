@@ -1,0 +1,65 @@
+@import "variables.css";
+
+nav.top-bar {
+    background-color: var(--red);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 30px 10px;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+nav.bottom-bar {
+    background-color: var(--dark);
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    margin: 0;
+    display: flex;
+}
+
+.hamburger-menu {
+    align-self: flex-start;
+    width: 2.5rem;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: lighter;
+    align-self: center ;
+    text-align: center;
+}
+
+.user-name {
+    font-size: 30px;
+}
+
+.bottom-line {
+    margin-top: 2rem;
+}
+
+.search-bar {
+    background-color: var(--red-dark);
+    border-radius: 15px;
+    padding: 15px 15px;
+    justify-content: space-between;
+}
+
+.search-bar .icons {
+    opacity: .4;
+}
+
+.search-bar .search{
+    margin-right: 1rem;
+}

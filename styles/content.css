@@ -1,0 +1,53 @@
+@import "variables.css";
+
+main {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: var(--background);
+    margin-top: 180px;
+    padding: 30px 10px;
+    height: calc(100% - 50px);
+
+}
+
+.category {
+    font-weight: lighter;
+    overflow-x: scroll;
+}
+
+.category span {
+    margin: 1rem;
+}
+
+.category span.active {
+    color: var(--red-dark);
+    margin-bottom: 1rem;
+}
+
+.category span.active::after {
+    content: "";
+    display: block;
+    width: 15px; /* tamanho da linha */
+    height: 2px; /* espessura da linha */
+    background-color: var(--red); /* cor da linha */
+    border-radius: 2px;
+    margin: auto;
+}
+
+.category span:hover {
+    color: var(--red-dark);
+}
+
+/*
+* Highlight Movie
+*/
+
+div.thumbnail {
+    width:100%;
+    height: 200px;
+    border-radius: 15px;
+    background: var(--red-dark);
+    background-image: url("/assets/movies-thumb/kgf.jpg");
+    background-size: cover;
+    background-position: center;
+}
